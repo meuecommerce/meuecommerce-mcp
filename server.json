@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.devstudio163/meuecommerce-mcp",
+  "title": "Meu Ecommerce",
+  "description": "Cotação de frete, rastreamento e etiquetas dos Correios para lojas Meu Ecommerce.",
+  "version": "1.0.0",
+  "websiteUrl": "https://dev.meuecommerce.com.br/docs/mcp",
+  "repository": {
+    "url": "https://github.com/devstudio163/meuecommerce-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/devstudio163/meuecommerce-mcp/main/logo.png",
+      "mimeType": "image/png",
+      "sizes": ["400x400"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.meuecommerce.com.br/mcp"
+    }
+  ]
+}
