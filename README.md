@@ -4,6 +4,8 @@
 
 # Meu Ecommerce MCP
 
+[![Meu Ecommerce MCP connector](https://glama.ai/mcp/connectors/io.github.meuecommerce/meuecommerce-mcp/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.meuecommerce/meuecommerce-mcp)
+
 Hosted remote MCP server that connects AI agents to Brazil's Correios through a Meu Ecommerce store: shipping quotes (frete), tracking (rastreio) and shipping labels (etiqueta), in a single connection.
 
 ```text
@@ -13,6 +15,7 @@ https://app.meuecommerce.com.br/mcp
 - **Transport:** Streamable HTTP
 - **Auth:** OAuth (Authorization Code + PKCE S256, dynamic client registration) or a store secret key
 - **Docs (Portuguese):** [dev.meuecommerce.com.br/docs/mcp](https://dev.meuecommerce.com.br/docs/mcp)
+- **Listed on:** [Official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.meuecommerce/meuecommerce-mcp) (`io.github.meuecommerce/meuecommerce-mcp`) · [Glama](https://glama.ai/mcp/connectors/io.github.meuecommerce/meuecommerce-mcp) · [Smithery](https://smithery.ai/servers/meuecommerce/meuecommerce-mcp)
 
 This repository only holds the server's public description (`server.json`), its logo and this guide. The server is a hosted service: there is nothing to install.
 
